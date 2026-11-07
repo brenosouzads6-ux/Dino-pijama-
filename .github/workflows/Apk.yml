@@ -19,7 +19,7 @@ jobs:
 
       - name: Verificar APK
         run: |
-          test -s DinoPijamaAndroid-projeto.apk
+          test -s DinoPijamaAtualizado-projeto.apk
 
       - name: Disponibilizar APK
         uses: actions/upload-artifact@v4
